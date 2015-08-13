@@ -1,15 +1,7 @@
-%This demo uses a single layer Neural Network for handwriting number
-%classification. It uses back-propagation algorithm to optimize the
-% parameters.
+%This demo uses a single layer Recurrent Neural Network (RNN) for XOR example. 
+% It uses back-propagation through time (BPPTT)algorithm to optimize the parameters.
 %
-% You will need MNIST dataset and two functions to load them in matlab.
-%
-% MNIST dataset can be found here:
-% http://yann.lecun.com/exdb/mnist/
-% After download MNIST, extract it inside the folder "data".
-% You can use the functions provided by Stanford university to load MNIST
-% dataset:
-% http://ufldl.stanford.edu/wiki/resources/mnistHelper.zip
+% 
 %
 % The optimization function fmincg is provided by Carl Edward Rasmussen.
 %
